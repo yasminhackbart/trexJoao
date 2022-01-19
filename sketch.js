@@ -147,7 +147,7 @@ function draw() {
 
   if (modo=="início"){
       
-    if (touches.lenght>0){
+    if (touches.length>0){
         modo="jogando"
         touches=[]
         trex.collide (solo_invisivel)
